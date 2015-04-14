@@ -1,15 +1,21 @@
 img.portrait {
   max-width: 100%; }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center; }
-  nav ul li {
-    display: inline; }
-    nav ul li a {
-      text-decoration: none;
-      padding: .2em 1em; }
+.home-portraits {
+  max-width: 700px;
+  margin: auto; }
+
+footer {
+  clear: both; }
+  footer nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center; }
+    footer nav ul li {
+      display: inline; }
+      footer nav ul li a {
+        text-decoration: none;
+        padding: .2em 1em; }
 
 /*# sourceMappingURL=main.css.map */
