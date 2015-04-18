@@ -15,8 +15,11 @@ h1 a {
 }
 
 .home-portraits {
-  max-width: 700px;
+  max-width: 750px;
   margin: auto;
+  .featured {
+    padding-right: 7rem;
+  }
 }
 
 footer {
@@ -32,7 +35,7 @@ footer {
         display: inline;
         a {
           text-decoration: none;
-          padding: .2em 1em;
+          padding: .2rem 1rem;
         }
       }
     }
@@ -41,7 +44,7 @@ footer {
 
 .biography {
   text-align: left;
-  padding-bottom: 2em;
+  padding-bottom: 2rem;
 }
 
 .test {
