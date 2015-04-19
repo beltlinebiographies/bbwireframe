@@ -21,7 +21,10 @@ h1 a {
 .home-portraits {
   max-width: 750px;
   margin: auto;
-  .featured {
+}
+
+@media (min-width: 768px) {
+  .home-portraits .featured {
     padding-right: 7rem;
   }
 }
